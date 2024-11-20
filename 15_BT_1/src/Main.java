@@ -11,7 +11,6 @@ public class Main {
             System.out.print("Nhập cạnh c: ");
             double c = scanner.nextDouble();
 
-            // Kiểm tra xem hình tam giác có hợp lệ hay không
             checkTriangle(a, b, c);
             System.out.println("Cạnh a: " + a + ", Cạnh b: " + b + ", Cạnh c: " + c + " tạo thành một tam giác hợp lệ.");
         } catch (IllegalTriangleException e) {
